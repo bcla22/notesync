@@ -1,0 +1,19 @@
+{
+  "name": "notetracker",
+  "version": "1.0.0",
+  "description": "A script for syncing markdown notes to a Git repo.",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.3.1",
+    "isomorphic-git": "^1.24.5"
+  }
+}
